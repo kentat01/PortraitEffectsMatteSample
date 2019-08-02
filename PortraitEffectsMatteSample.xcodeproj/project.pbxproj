@@ -13,6 +13,7 @@
 		4AD4B83122F46F310087C5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD4B83022F46F310087C5B4 /* Assets.xcassets */; };
 		4AD4B83422F46F310087C5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD4B83222F46F310087C5B4 /* LaunchScreen.storyboard */; };
 		4AD4B83F22F46F310087C5B4 /* PortraitEffectsMatteSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4B83E22F46F310087C5B4 /* PortraitEffectsMatteSampleTests.swift */; };
+		4AD4B84A22F46FFD0087C5B4 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4B84922F46FFD0087C5B4 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4AD4B83A22F46F310087C5B4 /* PortraitEffectsMatteSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortraitEffectsMatteSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD4B83E22F46F310087C5B4 /* PortraitEffectsMatteSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitEffectsMatteSampleTests.swift; sourceTree = "<group>"; };
 		4AD4B84022F46F310087C5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD4B84922F46FFD0087C5B4 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4AD4B82922F46F2E0087C5B4 /* AppDelegate.swift */,
 				4AD4B82B22F46F2E0087C5B4 /* ViewController.swift */,
+				4AD4B84922F46FFD0087C5B4 /* UIImage+Extension.swift */,
 				4AD4B82D22F46F2E0087C5B4 /* Main.storyboard */,
 				4AD4B83022F46F310087C5B4 /* Assets.xcassets */,
 				4AD4B83222F46F310087C5B4 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD4B84A22F46FFD0087C5B4 /* UIImage+Extension.swift in Sources */,
 				4AD4B82C22F46F2E0087C5B4 /* ViewController.swift in Sources */,
 				4AD4B82A22F46F2E0087C5B4 /* AppDelegate.swift in Sources */,
 			);
@@ -370,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.kentat01.PortraitEffectsMatteSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.kentat01.PortraitEffectsMatteSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
