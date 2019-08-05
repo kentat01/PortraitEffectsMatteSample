@@ -20,7 +20,7 @@ After shooting a human in portrait mode, please try this app.
 
 #3 Select a portrait photo taken in advance .
 
-#4 The masked photo is displayed at the top of the screen.The selected photo is displayed at the lower left of the screen, and 　　     Portrait Effects Matte is displayed at the lower right of the screen.
+#4 The masked photo is displayed at the top of the screen.The selected photo is displayed at the lower left of the screen, and　Portrait Effects Matte is displayed at the lower right of the screen.
 
 #5 You can change the background to transparent, white, or black in the UISegmentedControl below the masked image.
 
